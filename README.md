@@ -17,8 +17,9 @@
   
   ##
  
-<div>
+<!-- <div>
 
   ![Snake animation](https://github.com/pauloh-fm/pauloh-fm/blob/output/github-contribution-grid-snake.svg)
 
 </div>
+-->
