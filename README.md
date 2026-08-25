@@ -65,14 +65,14 @@ routing), and the sensitive flows stay deterministic and testable.
 
 <div align="center">
 
-![Paulo's GitHub stats](https://github-readme-stats.vercel.app/api?username=pauloh-fm&show_icons=true&theme=algolia&include_all_commits=true&count_private=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pauloh-fm&layout=compact&langs_count=10&theme=algolia)
+![GitHub Streak](https://streak-stats.demolab.com?user=pauloh-fm&theme=algolia)
 
 </div>
 
 ## 📫 Let's connect
 
 - 💼 Open to opportunities in **AI engineering, backend/API development and full-stack roles**
+- 💼 [LinkedIn — Paulo Henrique de Farias Martins](https://www.linkedin.com/in/paulo-henrique-de-farias-martins-1ba477250/)
 - ✉️ <a href="mailto:phfarmar@gmail.com">phfarmar@gmail.com</a>
 - 🐙 [github.com/pauloh-fm](https://github.com/pauloh-fm) — you're already here
 
