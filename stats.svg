@@ -1,30 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="240" viewBox="0 0 495 240" font-family="Segoe UI, -apple-system, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="290" viewBox="0 0 495 290" font-family="Segoe UI, -apple-system, Arial, sans-serif">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#003d5c"/>
-      <stop offset="100%" stop-color="#005f8c"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10232e"/>
+      <stop offset="100%" stop-color="#0a171f"/>
+    </linearGradient>
+    <linearGradient id="ph" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0e7490"/>
     </linearGradient>
   </defs>
-  <rect width="495" height="240" rx="10" fill="url(#g)"/>
-  <rect x="0" y="0" width="495" height="5" fill="#38bdf8"/>
-  <text x="24" y="38" fill="#38bdf8" font-size="15" font-weight="600" letter-spacing="1">GITHUB STATS</text>
-  <text x="24" y="66" fill="#ffffff" font-size="22" font-weight="700">@pauloh-fm</text>
-  <text x="24" y="88" fill="#9ad0e8" font-size="12">Paulo Henrique</text>
+  <rect x="1" y="1" width="493" height="288" rx="12" fill="url(#bg)" stroke="#2b5a70" stroke-width="1"/>
+  <rect x="1" y="1" width="493" height="6" rx="3" fill="#38bdf8"/>
 
-  <g font-size="26" font-weight="700" fill="#ffffff">
-    <text x="24"   y="135">43</text>
-    <text x="150"  y="135">24</text>
-    <text x="276"  y="135">1</text>
-    <text x="402"  y="135">1.317</text>
+  <!-- header -->
+  <circle cx="56" cy="56" r="24" fill="url(#ph)"/>
+  <text x="56" y="62" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">PA</text>
+  <text x="92" y="52" fill="#ffffff" font-size="17" font-weight="700">Paulo Henrique</text>
+  <text x="92" y="70" fill="#7fb8d4" font-size="12">@pauloh-fm</text>
+
+  <!-- metricas -->
+  <g>
+    <path d="M10 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-8l-2-2z" fill="#38bdf8" transform="translate(24,88) scale(1.15)"/>
+    <path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" fill="#f1c40f" transform="translate(150,88) scale(1.15)"/>
+    <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" fill="#4ade80" transform="translate(276,88) scale(1.15)"/>
+    <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" fill="#e879f9" transform="translate(402,88) scale(1.15)"/>
   </g>
-  <g font-size="11" fill="#9ad0e8">
-    <text x="24"   y="155">Repos</text>
-    <text x="150"  y="155">Followers</text>
-    <text x="276"  y="155">Stars</text>
-    <text x="402"  y="155">1-yr contrib</text>
+  <g>
+    <text x="24"  y="133" fill="#ffffff" font-size="24" font-weight="700">43</text>
+    <text x="150" y="133" fill="#ffffff" font-size="24" font-weight="700">1</text>
+    <text x="276" y="133" fill="#ffffff" font-size="24" font-weight="700">24</text>
+    <text x="402" y="133" fill="#ffffff" font-size="22" font-weight="700">1.318</text>
+  </g>
+  <g fill="#7fb8d4" font-size="11">
+    <text x="24"  y="150">Repos</text>
+    <text x="150" y="150">Stars</text>
+    <text x="276" y="150">Followers</text>
+    <text x="402" y="150">1-yr contrib</text>
   </g>
 
-  <line x1="24" y1="172" x2="471" y2="172" stroke="#1c7fae" stroke-width="1"/>
-  <text x="24" y="194" fill="#9ad0e8" font-size="11">Top languages</text>
-  <text x="24" y="216" fill="#ffffff" font-size="13" font-weight="600">Others 13   C 8   JavaScript 6   Python 4   CMake 3</text>
+  <line x1="24" y1="168" x2="471" y2="168" stroke="#1c3d50" stroke-width="1"/>
+  <text x="24" y="176" fill="#38bdf8" font-size="12" font-weight="600" letter-spacing="1">TOP LANGUAGES</text>
+
+  <text x="24" y="194" fill="#cfe9f5" font-size="13">Others</text>
+  <rect x="120" y="184" width="250" height="12" rx="6" fill="#16374a"/>
+  <rect x="120" y="184" width="90.3" height="12" rx="6" fill="#8e8e8e"/>
+  <text x="388" y="194" fill="#9ad0e8" font-size="12">36.1%</text>
+  <text x="24" y="218" fill="#cfe9f5" font-size="13">C</text>
+  <rect x="120" y="208" width="250" height="12" rx="6" fill="#16374a"/>
+  <rect x="120" y="208" width="55.6" height="12" rx="6" fill="#555555"/>
+  <text x="388" y="218" fill="#9ad0e8" font-size="12">22.2%</text>
+  <text x="24" y="242" fill="#cfe9f5" font-size="13">JavaScript</text>
+  <rect x="120" y="232" width="250" height="12" rx="6" fill="#16374a"/>
+  <rect x="120" y="232" width="41.7" height="12" rx="6" fill="#f1e05a"/>
+  <text x="388" y="242" fill="#9ad0e8" font-size="12">16.7%</text>
+  <text x="24" y="266" fill="#cfe9f5" font-size="13">Python</text>
+  <rect x="120" y="256" width="250" height="12" rx="6" fill="#16374a"/>
+  <rect x="120" y="256" width="27.8" height="12" rx="6" fill="#3572A5"/>
+  <text x="388" y="266" fill="#9ad0e8" font-size="12">11.1%</text>
+  <text x="24" y="290" fill="#cfe9f5" font-size="13">CMake</text>
+  <rect x="120" y="280" width="250" height="12" rx="6" fill="#16374a"/>
+  <rect x="120" y="280" width="20.8" height="12" rx="6" fill="#DA3434"/>
+  <text x="388" y="290" fill="#9ad0e8" font-size="12">8.3%</text>
+  <text x="24" y="314" fill="#cfe9f5" font-size="13">TypeScript</text>
+  <rect x="120" y="304" width="250" height="12" rx="6" fill="#16374a"/>
+  <rect x="120" y="304" width="13.9" height="12" rx="6" fill="#3178c6"/>
+  <text x="388" y="314" fill="#9ad0e8" font-size="12">5.6%</text>
 </svg>
