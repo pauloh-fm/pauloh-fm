@@ -65,7 +65,9 @@ routing), and the sensitive flows stay deterministic and testable.
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=pauloh-fm&theme=algolia)
+![GitHub Stats](https://raw.githubusercontent.com/pauloh-fm/pauloh-fm/main/stats.svg)
+
+*Auto-atualizado diariamente com dados reais via GitHub Actions.*
 
 </div>
 

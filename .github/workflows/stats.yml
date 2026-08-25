@@ -1,0 +1,33 @@
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # diário 06:00 UTC (03:00 BRT)
+  workflow_dispatch:      # permite rodar manualmente
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate stats.svg
+        run: python3 .github/scripts/generate-stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit e push (se alterado)
+        run: |
+          if git diff --quiet stats.svg; then
+            echo "stats.svg sem mudanças — nada a commitar"
+          else
+            git config user.name "pauloh-fm"
+            git config user.email "phfarmar@gmail.com"
+            git add stats.svg
+            git commit -m "chore: atualiza stats do perfil (automático)"
+            git push
+          fi
