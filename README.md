@@ -61,15 +61,19 @@ routing), and the sensitive flows stay deterministic and testable.
 - [**mobile_entregador_app**](https://github.com/pauloh-fm/mobile_entregador_app) — delivery driver app (TypeScript)
 - [**embarcatech_projeto_final**](https://github.com/pauloh-fm/embarcatech_projeto_final) — embedded systems final project (C, bare-metal)
 
-## 📊 GitHub stats
+## 🗣️ Coding languages
 
-<div align="center">
-
-![GitHub Stats](https://raw.githubusercontent.com/pauloh-fm/pauloh-fm/main/stats.svg)
-
-*Auto-atualizado diariamente com dados reais via GitHub Actions.*
-
-</div>
+<!-- STATS_START -->
+```text
+TypeScript         35,7 MB     ██████████████░░░░░░░░░░   56.31 %
+Python              5,7 MB     ██░░░░░░░░░░░░░░░░░░░░░░    8.97 %
+Ruby                5,6 MB     ██░░░░░░░░░░░░░░░░░░░░░░    8.78 %
+Go                  3,7 MB     █░░░░░░░░░░░░░░░░░░░░░░░    5.89 %
+Vue                 3,4 MB     █░░░░░░░░░░░░░░░░░░░░░░░    5.40 %
+JavaScript          3,2 MB     █░░░░░░░░░░░░░░░░░░░░░░░    5.00 %
+Other               6,1 MB     ██░░░░░░░░░░░░░░░░░░░░░░    9.65 %
+```
+<!-- STATS_END -->
 
 ## 📫 Let's connect
 
