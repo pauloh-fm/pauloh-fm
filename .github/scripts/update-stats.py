@@ -46,7 +46,7 @@ def build_block():
         pct = bytes_ / total * 100
         filled = round(pct / 100 * 24)
         bar = "█" * filled + "░" * (24 - filled)
-        lines.append(f"{lang:<16} {human_bytes(bytes_):>9}     {bar}   {pct:5.2f} %")
+        lines.append(f"{lang:<18} {bar}   {pct:5.2f} %")
     block = (
         "<!-- STATS_START -->\n"
         "```text\n" + "\n".join(lines) + "\n```\n"
