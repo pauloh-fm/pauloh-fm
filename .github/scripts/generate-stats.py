@@ -75,6 +75,10 @@ def main():
   <rect x="120" y="{y+2}" width="{250*pct/100:.1f}" height="12" rx="6" fill="{LANG_COLORS.get(lang, '#38bdf8')}"/>
   <text x="388" y="{y+12}" fill="#9ad0e8" font-size="12">{pct:.1f}%</text>''')
 
+    def initials(n):
+        parts = n.split()
+        return (parts[0][0] + (parts[-1][0] if len(parts) > 1 else "")).upper()
+
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="290" viewBox="0 0 {W} 290" font-family="Segoe UI, -apple-system, Arial, sans-serif">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
@@ -91,7 +95,7 @@ def main():
 
   <!-- header -->
   <circle cx="56" cy="56" r="24" fill="url(#ph)"/>
-  <text x="56" y="62" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">{esc(name[:2].upper())}</text>
+  <text x="56" y="62" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="700">{esc(initials(name))}</text>
   <text x="92" y="52" fill="#ffffff" font-size="17" font-weight="700">{esc(name)}</text>
   <text x="92" y="70" fill="#7fb8d4" font-size="12">@{esc(USER)}</text>
 
