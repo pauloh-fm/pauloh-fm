@@ -39,27 +39,16 @@ and the AI layer in between.
 I care about **reliability over hype**: LLMs decide what they decide well (language,
 routing), and the sensitive flows stay deterministic and testable.
 
-## 🚀 Selected work
+## 🚀 Open source
 
-- **SeuBarber** — SaaS booking platform for barbershops, built from zero to production
-  (Next.js, React Native + PWA, PostgreSQL, Docker/Traefik). Includes an **AI agent
-  that schedules appointments autonomously** via Instagram/WhatsApp, integrated CRM
-  and RAG over the business knowledge base. 🔒 private
-- **Medical clinic AI agent** — conversational agent for clinics (attendance +
-  appointment booking over WhatsApp) in production. Orchestrated with **LangGraph**
-  (state graph, structured LLM output), **RAG** (embeddings + vector store over the
-  services/price/schedule knowledge base), connectors to CRM/calendar APIs via
-  authenticated webhooks, and FinOps-aware model routing. 🔒 private
-- **Garera** — sports matchmaking platform (multi-sport, B2B arenas). Monorepo with
-  Next.js, Expo, Hono, tRPC, Drizzle + PostGIS. 🔒 private
-
-## 🏫 Academic & campus projects
-
-- [**CursoCS50-harvard**](https://github.com/pauloh-fm/CursoCS50-harvard) — exercises from Harvard's CS50 (C)
-- [**compilador-java**](https://github.com/pauloh-fm/compilador-java) — compilers course project (Java)
-- [**projeto-Django**](https://github.com/pauloh-fm/projeto-Django) — web app built with Django (Python)
-- [**mobile_entregador_app**](https://github.com/pauloh-fm/mobile_entregador_app) — delivery driver app (TypeScript)
-- [**embarcatech_projeto_final**](https://github.com/pauloh-fm/embarcatech_projeto_final) — embedded systems final project (C, bare-metal)
+- [**universal-agent**](https://github.com/pauloh-fm/universal-agent) — production-minded template for
+  tool-using AI agents. **LangGraph** state machine + **FastAPI**, agents defined as YAML/Markdown folders,
+  human approval for side-effecting tools, any OpenAI-compatible model, SQLite persistence, Docker and an
+  AI build guide so coding agents can turn it into a working product. Apache-2.0
+- [**vpn-indicator**](https://github.com/pauloh-fm/vpn-indicator) — GNOME Shell panel indicator and toggle
+  for Tailscale exit nodes. MIT
+- [**adguard-indicator**](https://github.com/pauloh-fm/adguard-indicator) — GNOME Shell panel indicator and
+  toggle for AdGuard Home over Tailscale DNS. MIT
 
 ## 🗣️ Coding languages
 
